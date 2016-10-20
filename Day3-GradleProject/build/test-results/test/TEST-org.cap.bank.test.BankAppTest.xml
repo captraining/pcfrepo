@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.cap.bank.test.BankAppTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-10-20T10:06:11" hostname="LIN73000499" time="0.157">
+  <properties/>
+  <testcase name="test_addaccount_raise_Exception_ifcustomer_null" classname="org.cap.bank.test.BankAppTest" time="0.126"/>
+  <testcase name="test" classname="org.cap.bank.test.BankAppTest" time="0.0"/>
+  <testcase name="test_findAccountById" classname="org.cap.bank.test.BankAppTest" time="0.029"/>
+  <testcase name="test_Withdrawal_Method" classname="org.cap.bank.test.BankAppTest" time="0.0"/>
+  <testcase name="test_Deposit_Method" classname="org.cap.bank.test.BankAppTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
