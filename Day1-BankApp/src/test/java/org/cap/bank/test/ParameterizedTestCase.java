@@ -32,7 +32,7 @@ public class ParameterizedTestCase {
 	public static List<Object[]> myParameters(){
 		return Arrays.asList(new Object[][]{
 			{1,2,3},
-			{-1,1,9},
+			{-1,1,0},
 			{0,3,3},
 			{5,5,10}
 		});
