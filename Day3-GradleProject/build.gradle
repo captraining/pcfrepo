@@ -1,7 +1,7 @@
 
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
-
+apply plugin: 'sonar-runner'
 
 group = 'BankAppGradle'
 version = '0.0.1-SNAPSHOT'
@@ -39,6 +39,11 @@ task hello(group:'Greetings',description:'Hello World Task'){
 	println 'Hello Task Completed'
 }
 
+sonarRunner {
+ sonarProperties {
+   property "sonar.projectName", "BankApp GRADLE"
+   property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
+ }
 
 
 
